@@ -13,4 +13,4 @@ def climb_stairs(n):
 
 input_steps = 3
 output = climb_stairs(input_steps)
-print(output)
+print(output) 

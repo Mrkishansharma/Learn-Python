@@ -10,3 +10,5 @@ def longestCommonPrefix(strs):
     return strs[0]
 
 print(longestCommonPrefix(arr))
+
+

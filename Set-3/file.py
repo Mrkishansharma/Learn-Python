@@ -5,11 +5,12 @@ content = file.read()
 
 file.close()            
 
-c=0
+c = 0
 
 for ch in content:
-    if(ch==' '):
-        c+=1
+    if(ch == ' '):
+        c += 1
+
 
 print(c+1)
 
