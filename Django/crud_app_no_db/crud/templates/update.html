@@ -1,0 +1,16 @@
+<!-- crud/templates/update.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update</title>
+</head>
+<body>
+    <h1>Update</h1>
+    <form method="POST">
+        {% csrf_token %}
+        Key: <input type="text" name="key"><br>
+        Value: <input type="text" name="value"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

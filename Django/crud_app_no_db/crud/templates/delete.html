@@ -1,0 +1,15 @@
+<!-- crud/templates/delete.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete</title>
+</head>
+<body>
+    <h1>Delete</h1>
+    <form method="POST">
+        {% csrf_token %}
+        Key: <input type="text" name="key"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
